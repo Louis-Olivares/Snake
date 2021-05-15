@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serpiente | Snake</title>
+    <link rel="stylesheet" href="css/styles_ser.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="shortcut icon" href="img/icon/serpientes.svg" type="image/x-icon">
+</head>
+<body>
+    <div id="gameContainer"></div>
+
+    <div id="scoreContainer">
+        <div class="scoreBoard">COMIDA: <span id="pointsEarned">0</span></div>
+        <div class="scoreBoard">BLOQUES: <span id="blocksTravelled">0</span></div>
+    </div>
+
+    <div id="onScreenControllers">
+    <button id="leftButton"><ion-icon name="arrow-back-outline"></ion-icon></button>
+    <div>
+    <button id="upButton"><ion-icon name="arrow-up-outline"></ion-icon></button>
+    <button id="downButton"><ion-icon name="arrow-down-outline"></ion-icon></button>
+    </div>
+    <button id="rightButton"><ion-icon name="arrow-forward-outline"></ion-icon></button>
+</div>
+
+</body>
+<!-- SCRIPT -->
+<script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+<script src="js/javascript.js"></script>
+</html>
